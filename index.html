@@ -625,6 +625,52 @@
                 font-size: 11px;
             }
         }
+        /* Main Container */
+        .container {
+            text-align: center;
+            margin-bottom: 50px;
+           
+        }
+
+        /* Headline Styling */
+        h1 {
+            font-size: 48px;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        /* Subtext Styling */
+        .description {
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.5;
+            margin-bottom: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Logo Styling */
+        .logo {
+            width: 100%;
+            max-width: 600px; /* Limits size on large screens */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 32px;
+            }
+            
+            .description {
+                font-size: 16px;
+            }
+        }
     </style>
     
 </head>
@@ -647,22 +693,22 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Disclaimer</a>
+                                <a class="nav-link" href="#disclaimer">Disclaimer</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact </a>
+                                <a class="nav-link" href="#contact">Contact </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Planns </a>
+                                <a class="nav-link" href="#planns">Planns </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Custumer Reviews </a>
+                                <a class="nav-link" href="#custumer">Custumer Reviews </a>
                             </li>
                         </ul>
                     </div>
@@ -671,28 +717,24 @@
         </div>
     </div>
 
-
+<section>
     <div class="container">
-        <div class="row">
-            <div class="hero">
-                <h1 style="font-family: Quicksand; font-weight: 700; text-align: center; margin-top: 50px;"> Call to Pay
-                    your Bill Now
-                </h1>
-                <p style="">
-                    Need help with your bill? Call now for fast Insurance payment support. Pay your insurance bill
-                    quickly by phone. Speak directly with our Billing team
+        <!-- Headline -->
+        <h1>Call to Pay your Bill Now</h1>
 
-
-                </p>
-                <center> <a
+        <!-- Description Text -->
+        <p class="description">
+            Need help with your bill? Call now for fast Insurance payment support. Pay your insurance bill quickly by phone. Speak directly with our Billing team
+        </p>
+ <center> <a
                         style=" background-color: rgb(0 75 155); color: #fff; margin: 10px; padding: 12px; padding-bottom: 12px; text-decoration: none; text-align: center;border-radius: 20px;"
                         href="tel:18556184850">Call Now: +1(855) 618
                         4850</a></center>
-                <img style="text-align: center; " width="100%"
-                    src="geico.webp" alt="">
-            </div>
-        </div>
+        <!-- GEICO Logo -->
+        <img src="geico.webp" alt="GEICO Logo" class="logo">
     </div>
+</section>
+    
 <section style="background-color: rgb(59, 99, 160);">
 
  <div class="banner-container">
@@ -744,7 +786,7 @@
 
   </div>
 </section>
-<section>
+<section id="disclaimer">
    
         <div class="container">
         <div class="disclaimer-section">
@@ -789,7 +831,7 @@
     </div>
    
 </section>
-<section>
+<section id="about">
       
         <div class="container">
         <div class="about-section">
@@ -818,7 +860,7 @@
       
 
 </section>
-<section>
+<section id="contact">
      <div class="container">
         <div class="contact-wrapper">
         
