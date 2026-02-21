@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Billing Solutions of GEICO &amp; AllState Insurance | Quick Assistance | Online TV Internet</title>
+    <style>
+        
+       
+
+        /* The main blue container */
+        .banner-container {
+            background-color: #005299; /* Deep blue color matching image */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* The white phone number button */
+        .phone-button {
+            background-color: #ffffff;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 12px 24px;
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .phone-button:hover {
+            background-color: #f0f0f0; /* Slight grey on hover */
+        }
+
+        /* The "Top rated" text */
+        .rating-text {
+            font-size: 16px;
+            margin: 0;
+            opacity: 0.9; /* Slight transparency */
+        }
+
+        /* The star rating */
+        .stars {
+            margin-top: 8px;
+            font-size: 18px;
+            letter-spacing: 2px; /* Space between stars */
+        }
+         /* Main Container */
+      
+
+        /* --- Left Side: Text Content --- */
+        .text-content {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        /* The "Stepped" Headline Styling */
+        .headline-block {
+            display: inline-block;
+            background-color: #005299; /* The specific blue color */
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.2;
+            padding: 2px 5px;
+            margin-bottom: 2px;
+            width: 100%; /* Ensures blocks stack nicely */
+        }
+
+        /* Subtext Styling */
+        .subtext {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-top: 25px;
+            margin-bottom: 30px;
+        }
+
+        /* Button Styling */
+        .phone-btn {
+            display: inline-block;
+            background-color: #003366; /* Darker blue for button */
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 12px 30px;
+            border-radius: 50px; /* Pill shape */
+            transition: background-color 0.3s ease;
+        }
+
+        .phone-btn:hover {
+            background-color: #002244;
+        }
+
+        /* --- Right Side: Image --- */
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* The Blue Circle */
+        .circle-frame {
+            width: 400px;
+            height: 400px;
+            background-color: #005299; /* Matches headline blue */
+            border-radius: 50%;
+            overflow: hidden; /* Clips the image into a circle */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .circle-frame img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Responsive Design (Mobile) */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column-reverse; /* Puts image on top */
+                text-align: center;
+                gap: 30px;
+            }
+
+            .headline-block {
+                display: block; /* Full width blocks on mobile */
+            }
+
+            .circle-frame {
+                width: 300px;
+                height: 300px;
+            }
+        }
+        .hero {
+    padding: 80px 5vw;
+  }
+
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .hero-copy {
+    flex: 1 1 0;
+    min-width: 260px;
+  }
+
+  .hero-copy h1 {
+    margin: 0 0 28px;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  /* Blue block hugging each line of the heading */
+  .hero-copy h1 span {
+    background: var(--blue-main);
+    color: #ffffff;
+    padding: 12px 18px;
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .hero-copy p {
+    margin: 0 0 32px;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 520px;
+    color: #444444;
+  }
+
+  .hero-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 42px;
+    border-radius: 12px;
+    background: #0053a4;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    border: 2px solid var(--blue-dark);
+    box-shadow: 0 4px 0 var(--blue-dark);
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.1s ease;
+  }
+
+  .hero-btn:hover {
+    background: #004790;
+    transform: translateY(1px);
+    box-shadow: 0 3px 0 var(--blue-dark);
+  }
+
+  .hero-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 var(--blue-dark);
+  }
+
+  /* Right side: blue circle with gecko */
+  .hero-visual {
+    flex: 0 0 430px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-circle {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    background: var(--blue-main);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .hero-circle img {
+    height: 115%;
+    object-fit: contain;
+    transform: translateY(4%);
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .hero {
+      padding: 50px 6vw;
+    }
+
+    .hero-inner {
+      flex-direction: column-reverse;
+      gap: 40px;
+      text-align: left;
+    }
+
+    .hero-visual {
+      flex: 0 0 auto;
+    }
+
+    .hero-circle {
+      width: 280px;
+      height: 280px;
+    }
+
+    .hero-copy h1 {
+      font-size: 32px;
+    }
+  }
+   /* Main Container */
+        .disclaimer-section {
+            max-width: 1100px;
+            width: 90%;
+            text-align: center;
+        }
+
+        /* Main Heading */
+        h1.main-title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #222;
+        }
+
+        /* Grid Layout for the Boxes */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            gap: 20px;
+            margin-bottom: 40px;
+            text-align: left; /* Align text inside boxes to the left */
+        }
+
+        /* The "How Our Process Works" Label */
+        .process-label {
+            grid-column: 2; /* Place in the right column */
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        /* Box Styling */
+        .box {
+            padding: 25px;
+            border-radius: 4px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .box h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        /* Specific Box Colors */
+        .box.must-read {
+            background-color: #cfe2f3; /* Slightly darker blue */
+        }
+
+        .box.light-blue {
+            background-color: #eaf3fb; /* Very light blue */
+        }
+
+        /* Button Styling */
+        .phone-button {
+            display: inline-block;
+            background-color: #003366; /* Dark Blue */
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 25px; /* Pill shape */
+            font-weight: bold;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .phone-button:hover {
+            background-color: #002244;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr; /* Stack into one column on mobile */
+            }
+            
+            .process-label {
+                grid-column: 1; /* Move label to top on mobile */
+                text-align: left;
+                margin-bottom: 10px;
+            }
+        }
+        /* Main Container */
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1100px;
+            width: 90%;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        /* Left Column: Text Content */
+        .text-content {
+            flex: 1;
+            max-width: 550px;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #222;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Button Styling */
+        .phone-btn {
+            display: inline-block;
+            background-color: #004085; /* Dark Blue matching the image */
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 12px 25px;
+            border-radius: 8px; /* Slightly rounded corners */
+            transition: background-color 0.3s ease;
+        }
+
+        .phone-btn:hover {
+            background-color: #002752;
+        }
+
+        /* Right Column: Image Area */
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Recreating the Pink Card with CSS */
+        .pink-card {
+            width: 100%;
+            max-width: 500px;
+            aspect-ratio: 16/9; /* Maintains the rectangular shape */
+            background: linear-gradient(135deg, #ffd1dc 0%, #ffb7b2 100%); /* Soft pink gradient */
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        /* The Blue Question Mark (SVG) */
+        .question-mark {
+            width: 120px;
+            height: 120px;
+            fill: #007bff; /* Bright Blue */
+            filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.2)); /* Adds depth like a 3D object */
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column-reverse; /* Puts image on top */
+                text-align: center;
+                gap: 30px;
+            }
+
+            .text-content {
+                max-width: 100%;
+            }
+        }
+        /* Main Container */
+        .contact-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            width: 100%;
+            gap: 60px;
+            align-items: flex-start;
+        }
+
+        /* --- Left Column: Info Text --- */
+        .info-column {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 20px;
+        }
+
+        .info-column h1 {
+            font-size: 32px;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .info-column p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #444;
+        }
+
+        .email-section {
+            margin-top: 40px;
+        }
+
+        .email-label {
+            font-weight: 600;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .email-link {
+            color: #0056b3; /* Standard link blue */
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        /* --- Right Column: Form --- */
+        .form-column {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+        }
+
+        .form-column h2 {
+            font-size: 28px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        /* Form Groups */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        /* Input Styling */
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px; /* Rounded corners */
+            background-color: #f0f4f8; /* Light grey-blue background */
+            box-sizing: border-box; /* Ensures padding doesn't affect width */
+            transition: border-color 0.3s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #0056b3;
+            background-color: #fff;
+        }
+
+        /* Textarea specific */
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background-color: #004085; /* Dark Blue */
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%; /* Full width button */
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #002752;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .contact-wrapper {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .info-column {
+                padding-right: 0;
+            }
+        }
+        /* Footer Container */
+        .site-footer {
+            background-color: #ffffff;
+            padding: 60px 20px 40px 20px;
+            text-align: center;
+            color: #666666;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Disclaimer Text */
+        .disclaimer-text {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        /* Copyright Text */
+        .copyright-text {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 60px; /* Large gap before bottom text */
+        }
+
+        /* Bottom Fine Print */
+        .fine-print {
+            font-size: 12px;
+            color: #888;
+            line-height: 1.5;
+            border-top: 1px solid #eee; /* Optional: subtle separator if needed, though image doesn't show one clearly */
+            padding-top: 20px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .disclaimer-text {
+                font-size: 14px;
+            }
+            
+            .fine-print {
+                font-size: 11px;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        Geico-Inc.us
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Disclaimer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Contact </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Planns </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Custumer Reviews </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="hero">
+                <h1 style="font-family: Quicksand; font-weight: 700; text-align: center; margin-top: 50px;"> Call to Pay
+                    your Bill Now
+                </h1>
+                <p style="">
+                    Need help with your bill? Call now for fast Insurance payment support. Pay your insurance bill
+                    quickly by phone. Speak directly with our Billing team
+
+
+                </p>
+                <center> <a
+                        style=" background-color: rgb(0 75 155); color: #fff; margin: 10px; padding: 12px; padding-bottom: 12px; text-decoration: none; text-align: center;border-radius: 20px;"
+                        href="tel:18556184850">Call Now: +1(855) 618
+                        4850</a></center>
+                <img style="text-align: center; " width="100%"
+                    src="geico.webp" alt="">
+            </div>
+        </div>
+    </div>
+<section style="background-color: rgb(59, 99, 160);">
+
+ <div class="banner-container">
+        <!-- Phone Number Link -->
+        <a href="tel:+18556184850" class="phone-button">
+            Call Now: +1(855) 618
+                        4850
+        </a>
+
+        <!-- Rating Text -->
+        <p class="rating-text">Top rated by 1000+ clients</p>
+
+        <!-- Stars -->
+        <div class="stars">★★★★★</div>
+    </div>
+
+</section>
+<section class="hero">
+  <div class="hero-inner">
+
+    <!-- Left: text content -->
+    <div class="hero-copy">
+      <h1>
+        <span style="color: #0053a4;">
+          Connect with our billing<br>
+          department to pay your<br>
+          insurance monthly bill now.
+        </span>
+      </h1>
+
+      <p>
+        Need help with your bill? Call now for fast Insurance payment support.
+        Pay your insurance bill quickly by phone. Speak directly with our Billing team.
+      </p>
+
+      <a class="hero-btn" href="tel:+18556184850">
+         Call Now: +1(855) 618
+                        4850
+      </a>
+    </div>
+
+    <!-- Right: circular image -->
+    <div class="hero-visual">
+      <div class="hero-circle">
+        <!-- Replace "gecko.png" with your actual image path -->
+        <img src="gecko-waving-LbGCRkZYZAIPnAyI.avif" alt="Friendly gecko mascot waving">
+      </div>
+    </div>
+
+  </div>
+</section>
+<section>
+    <center>
+        <div class="container">
+        <div class="disclaimer-section">
+        
+        <h1 class="main-title">Disclaimer</h1>
+
+        <div class="info-grid">
+            
+            <!-- Top Right Label -->
+            <div class="process-label">How Our Process Works</div>
+
+            <!-- Top Left Box -->
+            <div class="box must-read">
+                <h3>Must Read!</h3>
+                <p>We are not Authorized Dealers, Retailers, Resellers, or any other service provider mentioned. We are an independent third-party service provider and are not associated with GEICO Insurance or any other brands in any way.</p>
+            </div>
+
+            <!-- Top Right Box -->
+            <div class="box light-blue">
+                <h3>Contact Us:</h3>
+                <p>Reach out via phone or complete the form below to describe your billing issue.</p>
+            </div>
+
+            <!-- Bottom Left Box -->
+            <div class="box light-blue">
+                <h3>Choose Your Plan:</h3>
+                <p>Select the plan that best fits your needs and receive tailored assistance.</p>
+            </div>
+
+            <!-- Bottom Right Box -->
+            <div class="box light-blue">
+                <h3>Receive Assistance:</h3>
+                <p>Our experts will review your situation and provide the support needed to resolve your billing concerns.</p>
+            </div>
+
+        </div>
+
+        <!-- Bottom Button -->
+        <a href="tel:+18556184850" class="phone-button">Call Now: +1(855) 618-4850</a>
+
+    </div>
+    </div>
+    </center>
+</section>
+<section>
+      <center>
+        <div class="container">
+        <div class="about-section">
+        
+        <!-- Left Column -->
+        <div class="text-content">
+            <h2>About Us</h2>
+            <p>
+                We are dedicated to providing top-notch billing support services for customers facing issues with their service providers. Our team consists of experienced professionals who are passionate about helping you understand and resolve your billing concerns efficiently. With a commitment to transparency, reliability, and customer satisfaction, we aim to make the billing process straightforward and stress-free for you.
+            </p>
+            <a href="tel:+18556184850" class="phone-btn">Call Now: +1(855) 618-4850</a>
+        </div>
+
+        <!-- Right Column -->
+        <div class="image-content">
+            <div class="pink-card">
+                <!-- SVG for the Blue Question Mark -->
+                <svg class="question-mark" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+      </div>
+      </center>
+
+</section>
+<section>
+     <div class="container">
+        <div class="contact-wrapper">
+        
+        <!-- Left Column: Text Info -->
+        <div class="info-column">
+            <h1>Get Help with Your GEICO Insurance Billing Today!</h1>
+            
+            <p>
+                Don't let billing issues disrupt your experience. Contact us now for prompt assistance and get your billing concerns resolved efficiently.
+            </p>
+
+            <div class="email-section">
+                <span class="email-label">Email:</span>
+                <a href="mailto:help@geico-inc.us" class="email-link">help@geico-inc.us</a>
+            </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="form-column">
+            <h2>Contact Us</h2>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Your last name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your email*</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Enter your message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+    </div>
+     </div>
+</section>
+<div class="container">
+    <footer class="site-footer">
+        <div class="footer-content">
+            
+            <!-- Top Disclaimer -->
+            <p class="disclaimer-text">
+                Disclaimer: This is an independent billing services company. We are not affiliated with, endorsed by, or connected to any specific utility company, government agency, or financial institution. Our services are designed to assist customers with general billing inquiries and payment processing.
+            </p>
+
+            <!-- Copyright -->
+            <p class="copyright-text">
+                © 2025 Geico-Inc.us
+            </p>
+
+            <!-- Bottom Registration Info -->
+            <p class="fine-print">
+                Geico-inc.us is the trading name of FSONS, LLC. Registration No. 805268788, Registered in the US. EIN No.924007269. Registered Office: 13210 OLD RICHMOND RD APT 2 HOUSTON, TX 77083
+            </p>
+
+        </div>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
